@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Empecher l'access et rediriger l'user
+
+RewriteRule ^(.*)?$ http://localhost/isonan/mvc/ [L]
+
+
+

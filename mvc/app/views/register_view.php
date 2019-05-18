@@ -1,182 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags always come first -->
-    <?php include "includes/plugins/top.php"; ?>
-    <!-- Titre de la partie -->
-    <title>BIBLIO ZULU|ENREGISTREMENT</title>
-
-    <!-- CSS -->
-
-    <link rel="stylesheet" href="https://unpkg.com/materialize-stepper@3.0.1/dist/css/mstepper.min.css">
 
 
-    <style>
-        .collapse-content .fa.fa-heart:hover {
-            color: #f44336 !important;
-        }
-        .collapse-content .fa.fa-share-alt:hover {
-            color: #0d47a1 !important;
-        }
-        .chip.chip-md {
-            height: 42px;
-            line-height: 42px;
-            border-radius: 21px;
-        }
-        .chip.chip-md img {
-            height: 42px;
-            width: 42px;
-        }
-        .chip.chip-md .close {
-            height: 42px;
-            line-height: 42px;
-            border-radius: 21px;
-        }
-        .chip.chip-lg {
-            height: 52px;
-            line-height: 52px;
-            border-radius: 26px;
-        }
-        .chip.chip-lg img {
-            height: 52px;
-            width: 52px;
-        }
-        .chip.chip-lg .close {
-            height: 52px;
-            line-height: 52px;
-            border-radius: 26px;
-        }
+<!-- Full Page Intro -->
+<div id="intro-section" class="view">
 
-        /* Required for full background image */
+    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline
+           autoplay muted loop>
+        <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">
+    </video>
 
-        html,
-        body,
-        header,
-        .view {
-            height: 80%;
-        }
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
 
+        <!-- Content -->
+        <div class="container px-md-3 px-sm-0">
 
+            <!--Grid row-->
+            <div class="row wow fadeIn">
 
-        .top-nav-collapse {
-            background-color: #3f51b5 !important;
-        }
+                <!--Grid column-->
+                <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
 
-        .navbar:not(.top-nav-collapse) {
-            background: transparent !important;
-        }
+                    <h3 class="display-5 font-weight-bold white-text mb-0 pt-md-5 pt-5">ENREGISTREMENT</h3>
+                    <hr class="hr-light my-4 w-75">
+                    <h4 class="subtext-header mt-2 mb-4">Créer gratuitement un compte afin de recevoir et donner des connaissances.</h4>
 
-        @media (max-width: 991px) {
-            .navbar:not(.top-nav-collapse) {
-                background: #3f51b5 !important;
-            }
-        }
-
-        .rgba-gradient {
-            background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-            background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
-            background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-        }
-
-        .card {
-
-        }
-
-        .md-form label {
-
-        }
-
-        h6 {
-            line-height: 1.7;
-        }
-    </style>
-
-
-</head>
-
-<body>
-
-<!-- Main navigation -->
-<header>
-    <!-- Navbar -->
-    <?php include "includes/navbar.php"; ?>
-    <!-- Navbar -->
-    <!-- Full Page Intro -->
-    <div id="intro-section" class="view">
-
-        <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline
-               autoplay muted loop>
-            <source src="https://mdbootstrap.com/img/video/animation.mp4" type="video/mp4">
-        </video>
-
-        <!-- Mask & flexbox options-->
-        <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
-
-            <!-- Content -->
-            <div class="container px-md-3 px-sm-0">
-
-                <!--Grid row-->
-                <div class="row wow fadeIn">
-
-                    <!--Grid column-->
-                    <div class="col-md-12 mb-4 white-text text-center wow fadeIn">
-
-                        <h3 class="display-3 font-weight-bold white-text mb-0 pt-md-5 pt-5">ENREGISTREMENT</h3>
-                        <hr class="hr-light my-4 w-75">
-                        <h4 class="subtext-header mt-2 mb-4">Créer gratuitement un compte afin de recevoir et donner des connaissances.</h4>
-
-
-                    </div>
-                    <!--Grid column-->
 
                 </div>
-                <!--Grid row-->
+                <!--Grid column-->
 
             </div>
-            <!-- Content -->
+            <!--Grid row-->
 
         </div>
-        <!-- Mask & flexbox options-->
+        <!-- Content -->
 
     </div>
-    <!-- Full Page Intro -->
+    <!-- Mask & flexbox options-->
+
+</div>
+<!-- Full Page Intro -->
 
 </header>
-<!-- Main navigation -->
-<!--/ Liste des niveau  -->
 
-
-
-<div class="container mb-5" id="home">
+<div class="container mb-5 mt-4" id="home">
     <div class="row">
 
         <div class="card col-md-12">
             <form class="needs-validation container" novalidate>
                 <div class="form-row">
-                    <div class="col-md-4 mb-3 md-form">
+                    <div class="col-md-6 mb-3 md-form">
                         <label for="validationTooltip011">Nom</label>
                         <input type="text" class="form-control" id="validationTooltip011" value="Mark" required>
                         <div class="valid-tooltip">
                             OK!
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 md-form">
+                    <div class="col-md-6 mb-3 md-form">
                         <label for="validationTooltip021">Prénom</label>
                         <input type="text" class="form-control" id="validationTooltip021" value="Otto" required>
                         <div class="valid-tooltip">
                             OK!
                         </div>
                     </div>
-                    <div class="col-md-4 mb-3 md-form">
+                    <div class="col-md-6 mb-3 md-form">
                         <label for="validationTooltipUsername1">Pseudo</label>
                         <input type="text" class="form-control" id="validationTooltipUsername1" required>
                         <div class="invalid-tooltip">
                             Veuillez entrer un pseudo correct.
                         </div>
                     </div>
-                </div>
-                <div class="form-row">
                     <div class="col-md-6 mb-3 md-form">
                         <label for="validationTooltip031">Email</label>
                         <input type="email" class="form-control" id="validationTooltip031" required>
@@ -184,8 +76,11 @@
                             Veuillez entrer un mail valide.
                         </div>
                     </div>
+                </div>
+                <div class="form-row">
 
-                    <div class="col-md-3 mb-3 md-form">
+
+                    <div class="col-md-6 mb-3 md-form">
                         <select class="mdb-select" required>
                             <option value="" disabled selected>GENRE</option>
                             <option value="1">HOMME</option>
@@ -196,7 +91,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 mb-3 md-form">
+                    <div class="col-md-6 mb-3 md-form">
                         <select class="mdb-select" required>
                             <option value="" selected disabled>STATUS</option>
                             <option value="1">PROFESSEUR</option>
@@ -210,28 +105,35 @@
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="col-md-3 mb-3 md-form">
+                    <div class="col-md-4 mb-3 md-form">
                         <label for="validationTooltipcontact">Contact</label>
                         <input type="text" class="form-control" id="validationTooltipcontact" required>
                         <div class="invalid-tooltip">
                             Veuillez entrer un contact valide.>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 md-form">
+                    <div class="col-md-4 mb-3 md-form">
                         <label for="validationTooltippassword">Mot de passe</label>
                         <input type="password" class="form-control" id="validationTooltippassword" required>
                         <div class="invalid-tooltip">
                             Veuillez entrer un mot de passe.>
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3 md-form">
+                    <div class="col-md-4 mb-3 md-form">
+                        <label for="validationTooltippassword">Confirmer le mot de passe</label>
+                        <input type="password" class="form-control" id="validationTooltippassword" required>
+                        <div class="invalid-tooltip">
+                            Veuillez entrer un mot de passe.>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 md-form">
                         <div class="file-field">
                             <a class="btn-floating purple-gradient mt-0 float-left">
                                 <i class="fas fa-cloud-upload-alt" aria-hidden="true"></i>
                                 <input type="file">
                             </a>
                             <div class="file-path-wrapper">
-                                <input class="file-path validate" type="text" placeholder="Choisir une image" >
+                                <input class="file-path validate" type="text" placeholder="Choisir une photo de profile" >
                             </div>
                         </div>
                     </div>
@@ -242,11 +144,12 @@
                     <div class="form-check pl-0">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck266" required>
                         <label class="form-check-label" for="invalidCheck266">J'ai lu et j'accepte les </label> <a
-                            href="" class="purple-text" data-toggle="modal" data-target="#fullHeightModalRight">conditions d'utilisation</a>
+                                href="" class="purple-text" data-toggle="modal" data-target="#fullHeightModalRight">conditions d'utilisation</a>
                         <div class="invalid-feedback">Veuillez remplir correctement le formulaire!</div>
                     </div>
                 </div>
                 <button class="btn blue-gradient btn-sm btn-rounded" type="submit">Je m'inscris</button>
+
             </form>
         </div>
 
@@ -320,55 +223,3 @@
     </div>
 </div>
 <!-- Full Height Modal Right -->
-<!-- Footer -->
-<?php include "includes/footer.php"; ?>
-<!-- Footer -->
-
-
-<!-- SCRIPTS -->
-<?php include "includes/plugins/bottom.php"; ?>
-<script src="https://unpkg.com/imask"></script>
-<!-- JS -->
-<script src="https://unpkg.com/materialize-stepper@3.0.1/dist/js/mstepper.min.js"></script>
-
-
-    <script type="text/javascript">
-        (function() {
-            'use strict';
-            window.addEventListener('load', function() {
-// Fetch all the forms we want to apply custom Bootstrap validation styles to
-                var forms = document.getElementsByClassName('needs-validation');
-// Loop over them and prevent submission
-                var validation = Array.prototype.filter.call(forms, function(form) {
-                    form.addEventListener('submit', function(event) {
-                        if (form.checkValidity() === false) {
-                            event.preventDefault();
-                            event.stopPropagation();
-                        }
-                        form.classList.add('was-validated');
-                    }, false);
-                });
-            }, false);
-        })();
-
-        $(document).ready(function() {
-            $('.datepicker').pickadate();
-            $('.datepicker').removeAttr('readonly');
-        });
-
-    
-        var element = document.getElementById('validationTooltipcontact');
-        var maskOptions = {
-            mask: '+{225} 00-00-00-00'
-        };
-        var mask = IMask(element, maskOptions);
-
-        // Material Select Initialization
-        $(document).ready(function() {
-            $('.mdb-select').materialSelect();
-        });
-    </script>
-
-</body>
-
-</html>

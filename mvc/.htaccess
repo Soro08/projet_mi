@@ -1,0 +1,33 @@
+RewriteEngine On
+
+#Le Rooter fonctionne avec appache
+#On parle ici de URL Rewrite ou reecriture d'URL
+
+# Page sans parametre
+
+RewriteRule ^acceuil.mi?$ index.php?page=acceuil
+
+RewriteRule ^contact.mi?$ index.php?page=contact
+
+RewriteRule ^register.mi?$ index.php?page=register
+
+RewriteRule ^cours.mi?$ index.php?page=detail
+
+RewriteRule ^profile.mi?$ index.php?page=profile
+
+RewriteRule ^file.mi?$ index.php?page=file
+
+
+RewriteRule ^not-a-number?$ 404.php
+
+
+
+# Multiple avec parametre
+
+RewriteRule ^detail-([a-z0-9]+) index.php?page=detail&q-nan=$1
+
+RewriteRule ^detailresult-([a-z0-9]+) index.php?page=detailresult&q-nan=$1
+
+#Page erreur 404 403 500 501...
+
+ErrorDocument 404 http://localhost/nan/exam/not-a-number

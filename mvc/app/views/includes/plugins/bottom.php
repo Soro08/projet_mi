@@ -12,4 +12,4 @@
         crossorigin="anonymous"></script>
 <!-- MDB core JavaScript -->
 <!-- <script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script> -->
-<script type="text/javascript" src="static/js/mymdb.min.js"></script>
+<script type="text/javascript" src="https://mdbootstrap.com/previews/docs/latest/js/mdb.min.js"></script>
