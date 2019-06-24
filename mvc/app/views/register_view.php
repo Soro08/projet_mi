@@ -130,7 +130,7 @@
                         <div class="file-field">
                             <a class="btn-floating purple-gradient mt-0 float-left">
                                 <i class="fas fa-cloud-upload-alt" aria-hidden="true"></i>
-                                <input type="file">
+                                <input type="file" id="file-with-current">
                             </a>
                             <div class="file-path-wrapper">
                                 <input class="file-path validate" type="text" placeholder="Choisir une photo de profile" >
@@ -149,6 +149,8 @@
                     </div>
                 </div>
                 <button class="btn blue-gradient btn-sm btn-rounded" type="submit">Je m'inscris</button>
+
+                <button class="btn blue-gradient btn-sm btn-rounded mytest" type="submit">test</button>
 
             </form>
         </div>

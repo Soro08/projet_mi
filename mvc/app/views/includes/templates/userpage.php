@@ -177,7 +177,40 @@
     // Material Select Initialization
     $(document).ready(function() {
         $('.mdb-select').materialSelect();
+
+
+        $(".mytest").click(function(){
+             /*$.get("http://localhost/isonan/projet_mi/mvc/api/app.php", function(data, status){
+                //console.log("Data: " + data + "\nStatus: " + status.code);
+            });*/
+
+
+            var fd = new FormData();
+            var files = $('#file-with-current')[0].files[0];
+            fd.append('file',files);
+
+            console.log(files);
+            $.ajax({
+                url: 'http://localhost/isonan/projet_mi/mvc/api/app.php',
+                type: 'post',
+                data: fd,
+                contentType: false,
+                processData: false,
+                success: function(response){
+                    if(response != 0){
+                        //$("#img").attr("src",response);
+                        //$(".preview img").show(); // Display image element
+                        console.log(response);
+                    }else{
+                        alert('file not uploaded');
+                    }
+                },
+            });
+        });
+
     });
+
+
 </script>
 
 </body>
