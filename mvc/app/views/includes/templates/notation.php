@@ -24,7 +24,7 @@
         <textarea rows="4" class="form-control" name="commentairefichier">C'est un bon fichier</textarea>
       </div>
       <div class="form-group">
-        <div class="rating rating2"><!--
+        <div class="rating rating2 text-center" style="font-size: 80px"><!--
       --><a href="#5" title="J'adore" id="fstar5">★</a><!--
      --><a href="#4" title="Très intéressant" id="fstar4">★</a><!--
       --><a href="#3" title="Pas mal" id="fstar3">★</a><!--
@@ -46,7 +46,7 @@
         <textarea rows='4' class="form-control" name="commentairesite">J'adore ce site, grâce à lui je trouve des documents de qualité qui m'aident à bien bosser et surtout valider mon année!!</textarea>
       </div>
        <div class="form-group">
-        <div class="rating rating2"><!--
+        <div class="rating rating2 text-center" style="font-size: 80px"><!--
       --><a href="#5" title="J'adore" id="sstar5">★</a><!--
      --><a href="#4" title="Très bon" id="sstar4">★</a><!--
       --><a href="#3" title="Pas mal" id="sstar3">★</a><!--
