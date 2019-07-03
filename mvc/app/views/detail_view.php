@@ -357,9 +357,8 @@
         <!-- Add .modal-dialog-centered to .modal-dialog to vertically center the modal -->
         <div class="modal-dialog modal-dialog-centered" role="document">
 
-
             <div class="modal-content">
-
+                <?php include("includes/templates/notation.php") ?>
             </div>
         </div>
     </div>
