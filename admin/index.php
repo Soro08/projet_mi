@@ -341,10 +341,10 @@
 						</div>
 					</div>
 
-					<span id="zmembres" style="visibility: hidden;"> <?php include("membres.php") ?> </span>
-					<span id="zfichiers" style="visibility: hidden;"> <?php include("fichiers.php") ?> </span>
-					<span id="zappreciations" style="visibility: hidden;"> <?php include("appreciations.php") ?> </span>
-					<span id="znotifications" style="visibility: hidden;"> <?php include("notifications.php") ?> </span>
+					<span id="zmembres" style="display: none;"> <?php include("membres.php") ?> </span>
+					<span id="zfichiers" style="display: none;"> <?php include("fichiers.php") ?> </span>
+					<span id="zappreciations" style="display: none;"> <?php include("appreciations.php") ?> </span>
+					<span id="znotifications" style="display: none;"> <?php include("notifications.php") ?> </span>
 					
 					<!-- end: page -->
 				</section>

@@ -16,34 +16,34 @@ var  mesaccueil= document.getElementById("mesaccueil");
 /*  EVENTS   */
 /*-------------*/
 membres.addEventListener("click",function(){
-	zmembres.style.visibility= "visible";
-	zfichiers.style.visibility= "hidden";
-	zappreciations.style.visibility= "hidden";
-	znotifications.style.visibility= "hidden";
-	mesaccueil.style.visibility= "hidden";
+	zmembres.style.display= "block";
+	zfichiers.style.display= "none";
+	zappreciations.style.display= "none";
+	znotifications.style.display= "none";
+	mesaccueil.style.display= "none";
 });
 
 
 fichiers.addEventListener("click",function(){
-	zmembres.style.visibility= "hidden";
-	zfichiers.style.visibility= "visible";
-	zappreciations.style.visibility= "hidden";
-	znotifications.style.visibility= "hidden";
-	mesaccueil.style.visibility= "hidden";
+	zmembres.style.display= "none";
+	zfichiers.style.display= "block";
+	zappreciations.style.display= "none";
+	znotifications.style.display= "none";
+	mesaccueil.style.display= "none";
 });
 
 appreciations.addEventListener("click",function(){
-	zmembres.style.visibility= "hidden";
-	zfichiers.style.visibility= "hidden";
-	zappreciations.style.visibility= "visible";
-	znotifications.style.visibility= "hidden";
-	mesaccueil.style.visibility= "hidden";
+	zmembres.style.display= "none";
+	zfichiers.style.display= "none";
+	zappreciations.style.display= "block";
+	znotifications.style.display= "none";
+	mesaccueil.style.display= "none";
 });
 
 notifications.addEventListener("click",function(){
-	zmembres.style.visibility= "hidden";
-	zfichiers.style.visibility= "hidden";
-	zappreciations.style.visibility= "hidden";
-	znotifications.style.visibility= "visible";
-	mesaccueil.style.visibility= "hidden";
+	zmembres.style.display= "none";
+	zfichiers.style.display= "none";
+	zappreciations.style.display= "none";
+	znotifications.style.display= "block";
+	mesaccueil.style.display= "none";
 });
